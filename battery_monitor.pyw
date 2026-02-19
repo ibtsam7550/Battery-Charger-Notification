@@ -3,7 +3,7 @@ import time
 import winsound
 from plyer import notification
 
-FULL_NOTIFY_INTERVAL = 30   # 5 minutes
+FULL_NOTIFY_INTERVAL = 30   # 0.5 minutes
 LOW_BATTERY_THRESHOLD = 20
 
 full_notified = False
