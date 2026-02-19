@@ -21,6 +21,7 @@ A simple Python script that monitors your laptop battery and notifies you when:
 - Type `python` and press Enter
 - The Microsoft Store will open → Install Python
 - Make sure Python is successfully installed before continuing. (You can check it by pressing `Win + R` and searching `python`. It will take you to the PowerShell.)
+- Open PowerShell and run `pip install psutil plyer` command on it.
 
 2. Download the Script
 
