@@ -3,7 +3,7 @@ import time
 import winsound
 from plyer import notification
 
-FULL_NOTIFY_INTERVAL = 300   # 5 minutes
+FULL_NOTIFY_INTERVAL = 30   # 5 minutes
 LOW_BATTERY_THRESHOLD = 20
 
 full_notified = False
@@ -25,7 +25,7 @@ while True:
     battery = psutil.sensors_battery()
 
     if battery is None:
-        time.sleep(60)
+        time.sleep(30)
         continue
 
     percent = battery.percent
@@ -66,4 +66,4 @@ while True:
     else:
         low_notified = False
 
-    time.sleep(60)
+    time.sleep(30)
